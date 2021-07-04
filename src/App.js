@@ -1,5 +1,6 @@
 import React from 'react';
 import Hello from './components/Hello';
+import Timer from './components/Timer';
 
 const user = {
   name: 'Taehwan',
@@ -8,7 +9,7 @@ const user = {
 function App() {
   return (
     <div>
-      <Hello user={user} />
+      <Timer />
     </div>
   );
 }
